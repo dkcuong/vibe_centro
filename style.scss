@@ -48,9 +48,12 @@ $bodyFont: 'Inter', sans-serif;
 
 
 
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
 html {
     height: 100%
+}
+.a{
+    
 }
 .container-fluid{
     padding: 0;
@@ -132,7 +135,7 @@ body{
             img{
                 width: 100%;
             }
-            
+
         }
         span.loginCenter{
             width: 26%;;
@@ -157,7 +160,7 @@ body{
         }
     }
 }
-// end intro css 
+// end intro css
 
 
 
@@ -206,9 +209,9 @@ body{
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
                 p{
-                  color: #ffffff;  
+                  color: #ffffff;
                 }
-                
+
             }
             .left{
                 display: inline-block;
@@ -239,7 +242,7 @@ body{
                     color: #464646;
                     margin: 0;
                 }
-                
+
             }
         }
         .second{
@@ -252,9 +255,9 @@ body{
         }
 
     }
-    // end backgroundBG    
+    // end backgroundBG
 }
-// end vibe cover 
+// end vibe cover
 
 .spacer.first{
     margin-top:-90px;
@@ -282,7 +285,7 @@ body{
     overflow: hidden;
     .screens{
         width: 100%;
-        
+
         img{
             width: 100%;
             margin: auto;
@@ -339,7 +342,7 @@ body{
             display: block;
             margin: auto;
             position: relative;
-            
+
         }
         img.logoImg{
             width: 300px;
@@ -376,7 +379,7 @@ body{
     }
 }
 
-// textandImg1 
+// textandImg1
 .normaly{
     p{
         margin: 0;
@@ -401,7 +404,7 @@ body{
     }
 }
 
-// textAndImg 2 
+// textAndImg 2
 .transparent p{
     margin: 0;
     opacity: 0;
@@ -490,16 +493,16 @@ body{
         img{
             margin-right: -300px !important;
         }
-        
+
 
     }
     .bottom.screens{
         opacity: 0.75;
         img{
-          margin-left: -300px !important;  
+          margin-left: -300px !important;
         }
-        
-  
+
+
     }
     .leftToRight{
         animation: leftToRight 5s forwards;
@@ -593,7 +596,7 @@ body{
         transform: translateY(-50px);
         opacity: .25;
     }
-    
+
     50%{
         transform: translateY(25px);
         opacity: .5;
@@ -726,7 +729,7 @@ body{
 }
 
 @keyframes textPull {
-    0%{	
+    0%{
         transform: translateY(200px);
         // height: 0%;
         // transform: scale(0.5);
@@ -745,7 +748,7 @@ body{
 }
 
 
-// CSS FOR THE MOBILE DEVICES 
+// CSS FOR THE MOBILE DEVICES
 
 // phone devices > 575 width, portals devices:
 @media (max-width: 767px)
@@ -753,21 +756,21 @@ body{
     * {
         margin: 0;
       }
-    
+
     body{
         p{
-            
+
             font-size: 13px;
             line-height: 20px;
         }
         h3{
-            
+
             font-size: 17px;
             line-height: 27px;
         }
     }
-    
-    // css for the INTRO 
+
+    // css for the INTRO
     .introcover{
         padding:  60px 0px;
         .animateTitle{
@@ -793,14 +796,14 @@ body{
             span.loginDetails{
                 margin-right: -15px;
             }
-            
+
             span.loginBooking{
                 margin-left: -15px;
             }
 
         }
     }
-    // css for the vibe & centro 
+    // css for the vibe & centro
     .vibecover{
         .gradientBg{
             background-image: url(images/mb/gradientVibe.png);
@@ -927,8 +930,8 @@ body{
                     height: 100%;
                     width: auto;
                 }
-                
-        
+
+
             }
             .bottom.screens{
                 opacity: 0.75;
@@ -938,12 +941,12 @@ body{
                 // margin-top: 0;
                 // margin-bottom: 100px;
                 img{
-                    margin-left: -300px !important;  
+                    margin-left: -300px !important;
                     height: 100%;
                     width: auto;
                 }
-                
-          
+
+
             }
             .leftToRight.Mb{
                 animation: leftToRightMb 3s forwards;
@@ -952,8 +955,8 @@ body{
                 animation: rightToLeftMb 3s forwards;
             }
         }
-        
-    
+
+
     }
     .services{
         background: url(images/mb/matteBg2.jpg);
@@ -992,7 +995,7 @@ body{
                     box-shadow: unset !important;
                 }
           }
-    
+
         }
         ._rightIcon{
             position: absolute;
@@ -1049,11 +1052,11 @@ body{
 // {
 //     body{
 //         p{
-            
+
 //             font-size: 14px;
 //         }
 //         h2{
-            
+
 //             font-size: 20px;
 //         }
 //     }
@@ -1064,7 +1067,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px)
 {
 
-        // css for the INTRO 
+        // css for the INTRO
         .introcover{
             padding:  60px 0px;
             .animateTitle{
@@ -1090,14 +1093,14 @@ body{
                 span.loginDetails{
                     margin-right: -15px;
                 }
-                
+
                 span.loginBooking{
                     margin-left: -15px;
                 }
-    
+
             }
         }
-        // css for the vibe & centro 
+        // css for the vibe & centro
         .vibecover{
             .gradientBg{
                 background-image: url(images/mb/gradientVibe.png);
@@ -1231,8 +1234,8 @@ body{
                         height: 100%;
                         width: auto;
                     }
-                    
-            
+
+
                 }
                 .bottom.screens{
                     opacity: 0.75;
@@ -1242,12 +1245,12 @@ body{
                     // margin-top: 0;
                     // margin-bottom: 100px;
                     img{
-                        margin-left: -300px !important;  
+                        margin-left: -300px !important;
                         height: 100%;
                         width: auto;
                     }
-                    
-              
+
+
                 }
                 .leftToRight.Mb{
                     animation: leftToRightMb 3s forwards;
@@ -1256,8 +1259,8 @@ body{
                     animation: rightToLeftMb 3s forwards;
                 }
             }
-            
-        
+
+
         }
         .services{
             background: url(images/mb/matteBg2.jpg);
@@ -1275,11 +1278,11 @@ body{
                     opacity: 0;
                     &.zoomIn{
                         animation: zoomIn 1s forwards;
-    
+
                     }
                 }
             }
-    
+
         }
         .servicesIcon.Mb{
             position: relative;
@@ -1296,7 +1299,7 @@ body{
                         box-shadow: unset !important;
                     }
               }
-        
+
             }
             ._rightIcon{
                 position: absolute;
@@ -1347,12 +1350,12 @@ body{
             display: none !important;
         }
 
-    
+
 } // end css for lanscape device
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px)
-{   
+{
     .d-lg-block {
         display: flex !important;
     }
